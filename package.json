@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "develop":"gatsby develop"
+    "develop": "gatsby develop"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "gatsby": "^2.32.3",
+    "lodash": "^4.17.20",
+    "nanoid": "^3.1.20",
     "netlify-cli": "^3.5.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
