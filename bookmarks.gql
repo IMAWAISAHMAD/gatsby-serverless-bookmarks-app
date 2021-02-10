@@ -1,0 +1,9 @@
+type BookMark {
+  url: String!
+  pageTitle:String!
+  description: String
+}
+ 
+type Query {
+  allBookMarks: [BookMark!]!
+}
