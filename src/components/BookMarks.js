@@ -15,10 +15,8 @@ const BookMarks = ({data}) => {
     }, [bookmarks]);
 
     const handleDelete = async (id) => {
-        console.log('Handle Delete Function Called');
         const payload = {};
         payload['id'] = id;
-        console.log(payload);
         const deleted = await axios.post('/api/delete-bookmark',payload);
         const deletedBookmark = deleted.data.bookmark;
         if(deletedBookmark){

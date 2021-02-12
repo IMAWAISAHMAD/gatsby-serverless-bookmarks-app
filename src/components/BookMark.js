@@ -7,13 +7,13 @@ const BookMark = ({data,handleDelete}) => {
         <>
         {data &&
           <Card>
-            <Typography variant="h4">
+            <Typography variant="h3">
                 <Link href={url}>
                 {pageTitle}
                 </Link>
             </Typography>
             <CardContent>
-              <Typography>
+              <Typography variant="body1">
                 {description}
               </Typography>
             </CardContent>
@@ -27,7 +27,7 @@ const BookMark = ({data,handleDelete}) => {
           </Card>
         
         }
-          <h2>Book Mark Component</h2>
+       
         </>
     )
 }
